@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a05585c-089e-40b8-9590-4a48c8ee7f54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2/Zettel_2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2/Zettel_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2/Zettel_2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +38,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Comp_Phys_Zettel" />
+      <recent name="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 1" />
       <recent name="$PROJECT_DIR$/Zettel 1" />
     </key>
   </component>
@@ -74,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588251917745</updated>
       <workItem from="1588251919826" duration="1057000" />
-      <workItem from="1588272229068" duration="477000" />
+      <workItem from="1588272229068" duration="688000" />
     </task>
     <servers />
   </component>
