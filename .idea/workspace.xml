@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a05585c-089e-40b8-9590-4a48c8ee7f54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2/Zettel_2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +12,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="ae97b7e6-cd43-4c49-96c9-bff031ef8588" />
+  <component name="JupyterTrust" id="ae97b7e6-cd43-4c49-96c9-bff031ef8588">
+    <option name="files">
+      <option value="Comp_Phys_Zettel/Zettel 2/Zettel_2.ipynb" />
+    </option>
+  </component>
   <component name="ProjectId" id="1bGIHjJi9IHGYlneHwkfpz8NOwL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -70,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588251917745</updated>
       <workItem from="1588251919826" duration="1057000" />
-      <workItem from="1588272229068" duration="217000" />
+      <workItem from="1588272229068" duration="477000" />
     </task>
     <servers />
   </component>
