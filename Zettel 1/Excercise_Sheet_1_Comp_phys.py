@@ -1,13 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def integrand(n, a):
+def integrand(x, n, a):
     return x**n/(x+a)
 
 
 def plot_function(x, a, n):
     for i in n:
-        plt.plot(x, integrand(i, 5))
+        plt.plot(x, integrand(x, i, 5))
     plt.show()
 
 def y_n(n, a, y_1):
