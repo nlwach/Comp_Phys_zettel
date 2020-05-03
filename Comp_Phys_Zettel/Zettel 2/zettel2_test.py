@@ -46,21 +46,46 @@ s = np.array([1, 0])
 steps = 200
 stepsize = 0.01
 
-plt.figure(figsize=(11,8))
+#plt.figure(figsize=(11,8))
 
-x_s, y_s, E = calculate(s, w, stepsize, steps)
-rel_E_err = energy_error(E, energy(w,s))
-delta_t = np.linspace(0.001, 1)
-zero = np.zeros(len(x_s))
-plt.xlim(-1.5, 1.5)
-plt.ylim(-1.5, 1.5)
+#x_s, y_s, E = calculate(s, w, stepsize, steps)
+#rel_E_err = energy_error(E, energy(w,s))
+#delta_t = np.linspace(0.001, 1)
+#zero = np.zeros(len(x_s))
+#plt.xlim(-1.5, 1.5)
+#plt.ylim(-1.5, 1.5)
 #plt.quiver(zero, zero, x_s, y_s, scale=1, angles="xy", scale_units="xy")
-plt.scatter(x_s, y_s, c="gray", marker=".")
-plt.gca().add_artist(plt.Circle((0, 0), 1, fill=False, color="r"))
+#plt.scatter(x_s, y_s, c="gray", marker=".")
+#plt.gca().add_artist(plt.Circle((0, 0), 1, fill=False, color="r"))
 #plt.show()
-steps_array = np.linspace(0, steps, steps)
+#steps_array = np.linspace(0, steps, steps)
+#plt.figure(figsize=(11,8))
+#plt.plot(steps_array, rel_E_err)
+
+
+def calc_abs_energy_err(s, w, h):
+    energy_error_time_step = []
+    for t in h:
+        _, _, E = calculate(s, w, t, steps)
+        E_err = np.abs((E[-1]-energy(w,s))/energy(w,s))
+        energy_error_time_step.append(E_err)
+    return energy_error_time_step
+
+w = np.array([0, 1])
+s = np.array([1, 0])
+stepsize = 0.001
+steps = 800
+h = np.linspace(0.001, 0.9, 300)
+
+
 plt.figure(figsize=(11,8))
-plt.plot(steps_array, rel_E_err)
+plt.title("Time Step Vectors")
+plt.xlabel("X-Position")
+plt.ylabel("Y-Position")
+plt.yscale("log")
+plt.xscale("log")
+rel_E_err = calc_abs_energy_err(s, w, h)
+plt.plot(h, rel_E_err)
 
-
+print(rel_E_err)
 plt.show()
