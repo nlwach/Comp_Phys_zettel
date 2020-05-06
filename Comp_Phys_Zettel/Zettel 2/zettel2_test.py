@@ -101,7 +101,7 @@ import matplotlib.cm as cm
 
 
 class Euler():
-    def __init__(self, r_0, v_0, h, steps):
+    def __init__(self, r_0, v_0, h, steps, threed=False):
         self.s_0 = np.array(r_0 / norm(r_0))
         self.w_0 = np.array(v_0 / np.sqrt(1 / norm(r_0)))
         self.h = h
@@ -111,35 +111,51 @@ class Euler():
         self.steps = steps
         self.y_location = []
         self.x_location = []
+        self.z_location = []
+        self.threed = threed
+        self.rel_Error = []
 
     def loc(self, i):
-        return self.location[i - 1] + (self.velocity[i - 1] * self.h)
+        location_i = self.location[i - 1] + (self.velocity[i - 1] * self.h)
+        self.location.append(location_i)
 
     def vel(self, i):
-        return self.velocity[i - 1] - ((self.location[i - 1] / norm(self.location[i - 1]) ** 3) * self.h)
+        velocity_i = self.velocity[i - 1] - ((self.location[i - 1] / norm(self.location[i - 1]) ** 3) * self.h)
+        self.velocity.append(velocity_i)
 
     def energy(self, i):
-
-        return 1 / 4 * norm(self.velocity[i]) ** 2 - 1 / norm(self.location[i])
+        e = 1 / 4 * norm(self.velocity[i]) ** 2 - 1 / norm(self.location[i])
+        self.energies.append(e)
 
     def split(self):
-        for location in self.location:
-            self.x_location.append(location[0])
-            self.y_location.append(location[1])
+        if self.threed == False:
+            for location in self.location:
+                self.x_location.append(location[0])
+                self.y_location.append(location[1])
+        else:
+            for location in self.location:
+                self.x_location.append(location[0])
+                self.y_location.append(location[1])
+                self.z_location.append(location[2])
 
+    def calc_rel_Error(self, i):
+        rel_E_i = np.abs((self.energies[0] - self.energies[i]) / self.energies[0])
+        self.rel_Error.append(rel_E_i)
 
     def calc(self):
         for i in range(1, self.steps):
             loc = self.loc(i)
-            vel = self.vel(i)
-            self.location.append(loc)
-            self.velocity.append(vel)
-            e = self.energy(i)
-            self.energies.append(e)
-        self.split()
+            self.vel(i)
+            self.energy(i)
+            self.calc_rel_Error(i)
 
+        self.split()
 
 
 A = Euler([1, 0], [0, 1], 0.01, 5)
 A.calc()
 print(A.x_location, A.y_location)
+print(A.steps, A.rel_Error)
+
+plt.plot(np.linspace(0, A.steps, len(A.rel_Error)), A.rel_Error)
+plt.show()
