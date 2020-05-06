@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from numpy.linalg import norm
 
-
+"""
 def energy(w, s):
     return norm(w)**2/2 - 1/norm(s)
 
@@ -89,3 +89,57 @@ plt.plot(h, rel_E_err)
 
 print(rel_E_err)
 plt.show()
+"""
+import time
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+from numpy.linalg import norm
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.cm as cm
+
+
+class Euler():
+    def __init__(self, r_0, v_0, h, steps):
+        self.s_0 = np.array(r_0 / norm(r_0))
+        self.w_0 = np.array(v_0 / np.sqrt(1 / norm(r_0)))
+        self.h = h
+        self.location = [self.s_0]
+        self.velocity = [self.w_0]
+        self.energies = [1 / 4 * norm(self.w_0) ** 2 - 1 / norm(self.s_0)]
+        self.steps = steps
+        self.y_location = []
+        self.x_location = []
+
+    def loc(self, i):
+        return self.location[i - 1] + (self.velocity[i - 1] * self.h)
+
+    def vel(self, i):
+        return self.velocity[i - 1] - ((self.location[i - 1] / norm(self.location[i - 1]) ** 3) * self.h)
+
+    def energy(self, i):
+
+        return 1 / 4 * norm(self.velocity[i]) ** 2 - 1 / norm(self.location[i])
+
+    def split(self):
+        for location in self.location:
+            self.x_location.append(location[0])
+            self.y_location.append(location[1])
+
+
+    def calc(self):
+        for i in range(1, self.steps):
+            loc = self.loc(i)
+            vel = self.vel(i)
+            self.location.append(loc)
+            self.velocity.append(vel)
+            e = self.energy(i)
+            self.energies.append(e)
+        self.split()
+
+
+
+A = Euler([1, 0], [0, 1], 0.01, 5)
+A.calc()
+print(A.x_location, A.y_location)
