@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3a05585c-089e-40b8-9590-4a48c8ee7f54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2/.ipynb_checkpoints/Abgabecommented-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2/Abgabecommented.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2/zettel2_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2/zettel2_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 4/.ipynb_checkpoints/Zettel_4_Noah-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 4/.ipynb_checkpoints/Zettel_4_Noah-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 4/Zettel_4_Noah.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 4/Zettel_4_Noah.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <recent name="$PROJECT_DIR$/Zettel 1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.zettel2_test">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Excercise_Sheet_1_Comp_phys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Comp_Phys_zettel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,6 +105,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Comp_Phys_zettel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Comp_Phys_zettel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Comp_Phys_Zettel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Comp_Phys_Zettel/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="zettel2_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Comp_Phys_zettel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,6 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.zettel2_test" />
         <item itemvalue="Python.Excercise_Sheet_1_Comp_phys" />
       </list>
@@ -152,6 +191,8 @@
       <workItem from="1588672512968" duration="5396000" />
       <workItem from="1589040705694" duration="1726000" />
       <workItem from="1589108468091" duration="502000" />
+      <workItem from="1589567134263" duration="379000" />
+      <workItem from="1589624604323" duration="2774000" />
     </task>
     <servers />
   </component>
@@ -163,66 +204,79 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Inspections/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588354548411" />
+    <state x="146" y="123" width="1194" height="677" key="DiffContextDialog" timestamp="1589627257032">
+      <screen x="46" y="23" width="1394" height="877" />
+    </state>
+    <state x="146" y="123" width="1194" height="677" key="DiffContextDialog/46.23.1394.877@46.23.1394.877" timestamp="1589627257032" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1588414850808">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588414850808" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1589110250269">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1352" height="285" key="GridCell.Tab.0.bottom" timestamp="1589635173965">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/1440.-157.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1588431676323" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/1440.-157.1920.1057/46.23.1394.877@46.23.1394.877" timestamp="1589059256740" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589110250269" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1589110250268">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1352" height="285" key="GridCell.Tab.0.bottom/46.23.1394.877@46.23.1394.877" timestamp="1589635173965" />
+    <state width="1352" height="285" key="GridCell.Tab.0.center" timestamp="1589635173964">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.center/1440.-157.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1588431676319" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/1440.-157.1920.1057/46.23.1394.877@46.23.1394.877" timestamp="1589059256738" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589110250268" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1589110250267">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1352" height="285" key="GridCell.Tab.0.center/46.23.1394.877@46.23.1394.877" timestamp="1589635173964" />
+    <state width="1352" height="285" key="GridCell.Tab.0.left" timestamp="1589635173964">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.left/1440.-157.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1588431676316" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/1440.-157.1920.1057/46.23.1394.877@46.23.1394.877" timestamp="1589059256737" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589110250267" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1589110250269">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1352" height="285" key="GridCell.Tab.0.left/46.23.1394.877@46.23.1394.877" timestamp="1589635173964" />
+    <state width="1352" height="285" key="GridCell.Tab.0.right" timestamp="1589635173964">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.right/1440.-157.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1588431676322" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/1440.-157.1920.1057/46.23.1394.877@46.23.1394.877" timestamp="1589059256739" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589110250269" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1589110250273">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1352" height="285" key="GridCell.Tab.0.right/46.23.1394.877@46.23.1394.877" timestamp="1589635173964" />
+    <state width="1352" height="285" key="GridCell.Tab.1.bottom" timestamp="1589635173966">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/1440.-157.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1588431676327" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/1440.-157.1920.1057/46.23.1394.877@46.23.1394.877" timestamp="1589059256746" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589110250273" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1589110250271">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1352" height="285" key="GridCell.Tab.1.bottom/46.23.1394.877@46.23.1394.877" timestamp="1589635173966" />
+    <state width="1352" height="285" key="GridCell.Tab.1.center" timestamp="1589635173965">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.center/1440.-157.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1588431676325" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/1440.-157.1920.1057/46.23.1394.877@46.23.1394.877" timestamp="1589059256744" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589110250271" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1589110250270">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1352" height="285" key="GridCell.Tab.1.center/46.23.1394.877@46.23.1394.877" timestamp="1589635173965" />
+    <state width="1352" height="285" key="GridCell.Tab.1.left" timestamp="1589635173965">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.left/1440.-157.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1588431676324" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/1440.-157.1920.1057/46.23.1394.877@46.23.1394.877" timestamp="1589059256741" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589110250270" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1589110250272">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1352" height="285" key="GridCell.Tab.1.left/46.23.1394.877@46.23.1394.877" timestamp="1589635173965" />
+    <state width="1352" height="285" key="GridCell.Tab.1.right" timestamp="1589635173966">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/1440.-157.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1588431676326" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/1440.-157.1920.1057/46.23.1394.877@46.23.1394.877" timestamp="1589059256745" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1589110250272" />
+    <state width="1352" height="285" key="GridCell.Tab.1.right/46.23.1394.877@46.23.1394.877" timestamp="1589635173966" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1588516929622">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588516929622" />
-    <state width="694" height="438" key="XDebugger.FullValuePopup" timestamp="1588414967336">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="672" height="427" key="XDebugger.FullValuePopup" timestamp="1589624766518">
+      <screen x="46" y="23" width="1394" height="877" />
     </state>
     <state width="694" height="438" key="XDebugger.FullValuePopup/1440.-180.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588414967336" />
+    <state width="672" height="427" key="XDebugger.FullValuePopup/46.23.1394.877@46.23.1394.877" timestamp="1589624766518" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589047641332">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -241,11 +295,38 @@
           <line>130</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Comp_Phys_Zettel/test2.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Comp_Phys_Zettel/test2.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Comp_Phys_zettel$zettel2_test.coverage" NAME="zettel2_test Coverage Results" MODIFIED="1589108609633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2" />
+    <SUITE FILE_PATH="coverage/Comp_Phys_zettel$test.coverage" NAME="test Coverage Results" MODIFIED="1589628279719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Comp_Phys_zettel$zettel2_test.coverage" NAME="zettel2_test Coverage Results" MODIFIED="1589624680119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Comp_Phys_Zettel/Zettel 2" />
+    <SUITE FILE_PATH="coverage/Comp_Phys_zettel$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1589627036773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Comp_Phys_Zettel" />
     <SUITE FILE_PATH="coverage/Comp_Phys_zettel$Excercise_Sheet_1_Comp_phys.coverage" NAME="Excercise_Sheet_1_Comp_phys Coverage Results" MODIFIED="1588252100001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Zettel 1" />
   </component>
 </project>
